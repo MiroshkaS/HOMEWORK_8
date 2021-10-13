@@ -1,0 +1,5 @@
+a=set(i for i in range(3, 100, 3))
+b=set(i for i in range(5, 100, 5))
+print(a)
+print(b)
+print(a.intersection(b))
